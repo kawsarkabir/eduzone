@@ -137,7 +137,8 @@ ul li i{
 /* our course section end */
 /* why choice us section start */
 .why-choice-us{
-    margin:50px 0;
+    margin:80px 0;
+   
 }
 .why-choice-us-inner{
     display: grid;
@@ -145,6 +146,18 @@ ul li i{
     grid-gap: 30px;
     align-items: center;
     justify-items: center;
+}
+.inner-text .choice-us-icon{
+    font-size: 60px;
+    color: #ff697c;
+}
+.choice-us-right{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.why-choice-us-text .inner-text{
+    display: flex;
+    align-items: center;
 }
 
 
