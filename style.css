@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* header section start here */
+/* navbar style here */
+.custom-nav{
+    background: #fff;
+    
+}
+.custom-menu{}
+.custom-menu li{
+    transition: .5s;
+}
+.custom-menu li a{
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #45567c;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.custom-nav .custom-menu li a:hover{
+    color: #ff697c;
+}
+.custom-nav .search a{
+    color: #ff697c;
+
 }
