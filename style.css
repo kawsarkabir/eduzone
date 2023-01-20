@@ -137,15 +137,32 @@ ul li i{
 /* our course section end */
 /* why choice us section start */
 .why-choice-us{
+    margin:50px 0;
+}
+.why-choice-us-inner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
-    margin:50px 0;
     align-items: center;
+    justify-items: center;
 }
 
 
 /* why choice us section done */
- 
+.course-complete-number{
+    background: #edf1f4;
+    padding: 60px 0;
+}
+.course-wapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* text-align: center; */
+    justify-items: center;
+    align-items: center;
+   
+}
+.inner{
+    color: #2a4376;
+}
 
 
