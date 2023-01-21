@@ -196,23 +196,45 @@ ul li i{
     align-items: center;
 }
 .upcomming-wrapper-inner-left{
-    background: #ff697c;
-    color: #fff;
+    background: #edf1f4;
+    color: #ff697c;
     width: 100px;
     height: 100px;
     text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     right: 1rem;
+    font-weight: bold;
+}
+.upcomming-wrapper-inner-left h5{
+    font-weight: bold;
 }
 .upcomming-wrapper-inner-right .register{
-    border: 1px solid #ff697c;
+    border: 2px solid #ff697c;
     padding: 5px 10px;
     display: inline-block;
     color: #ff697c;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 5px;
     text-decoration: none;
     
+}
+/* upcomming event section end */
+.people-say{
+    background-color: #edf1f4;
+    padding: 100px 0px;
+}
+.people-inner-details{
+    color: #2a4376;
+}
+.people-say-wapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
 }
 
 
