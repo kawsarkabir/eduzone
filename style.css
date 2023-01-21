@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* header section start here */
 /* navbar style here */
+.text-red{
+    color: #ff697c !important;
+}
 .custom-nav{
     background: #fff;
 }
@@ -176,6 +179,40 @@ ul li i{
 }
 .inner{
     color: #2a4376;
+}
+/*  upcomming event section start */
+.upcoming-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:  space-between;
+    align-items: center;
+    justify-items: end;
+    grid-gap: 30px;
+    padding: 20px;
+}
+.upcoming-wrapper-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upcomming-wrapper-inner-left{
+    background: #ff697c;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    right: 1rem;
+}
+.upcomming-wrapper-inner-right .register{
+    border: 1px solid #ff697c;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #ff697c;
+    font-weight: 600;
+    margin-top: 5px;
+    text-decoration: none;
+    
 }
 
 
