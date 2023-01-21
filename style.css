@@ -167,6 +167,10 @@ ul li i{
     .why-choice-us-inner{
         grid-template-columns: 1fr;
     }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
 }
 /* why choice us section done */
 /* our course number section start */
