@@ -117,8 +117,7 @@
     margin-top: 2.5rem;
 }
 .course{
-    /* border: 1px solid #515a6bab; */
-    box-shadow: 1px 1px 5px #f1f1f1;
+     box-shadow: 1px 1px 5px #f1f1f1;
 }
 .course img{
     max-width: 100%;
@@ -374,6 +373,11 @@ ul li i{
     padding:8px 30px;
     border-radius: 0 3px 3px 0;
 }
+.bg-red{
+    background-color: #ff697c;
+    border: none;
+    font-weight: 400;
+}
 /* responsive style here */
 @media  only screen and (max-width: 576px) {
     .subcribe-text{
@@ -383,6 +387,41 @@ ul li i{
     .fotter-form{
         display: block;
     }
-    
 }
 /* subscribe newslatter section done */
+/* footer section start */
+.footer-section{
+    background-color: #edf1f4;
+    color: #2a4376;
+    padding: 100px;
+}
+.social-menu{
+
+}
+.social-menu ul{
+    list-style: none;
+}
+.social-menu ul li{
+    display: inline-block !important;
+    width: 40px;
+    height: 40px;
+    /* line-height: 40px; */
+    background: #ff697c;
+    color: #fff !important;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-section ul{
+    list-style: none;
+}
+.footer-section ul li{
+    display:block;
+    color: #2a4376;
+    padding: 5px 0;
+}
+@media only screen and (max-width:576px) {
+    .footer-section{
+        text-align: center;
+    }
+    
+}
