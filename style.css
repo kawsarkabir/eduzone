@@ -49,7 +49,7 @@
 }
 .hero-title p{
     margin: 20px 0;
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
 }
 .course-btn{
@@ -92,6 +92,7 @@
 .title p{
     width: 50%;
     margin: auto;
+    color: #2a4376;
 }
 .courses-items{
     display: grid;
@@ -130,12 +131,11 @@ ul li i{
     font-size: 18px;
 }
 /* our course section responsive style here */
-/* @media only screen and(max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .courses-items{
         grid-template-columns: 1fr;
     }
-    
-} */
+}
 
 /* our course section end */
 /* why choice us section start */
@@ -162,9 +162,14 @@ ul li i{
     display: flex;
     align-items: center;
 }
-
-
+/* responsive style here */
+@media  only screen and (max-width: 576px) {
+    .why-choice-us-inner{
+        grid-template-columns: 1fr;
+    }
+}
 /* why choice us section done */
+/* our course number section start */
 .course-complete-number{
     background: #edf1f4;
     padding: 60px 0;
@@ -172,14 +177,22 @@ ul li i{
 .course-wapper{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* text-align: center; */
     justify-items: center;
     align-items: center;
+    text-align: center;
+    grid-gap: 30px;
    
 }
 .inner{
     color: #2a4376;
 }
+/* responsive css here */
+@media  only screen and (max-width: 576px) {
+    .course-wapper{
+        grid-template-columns: 1fr;
+    }
+}
+/* course number section end */
 /*  upcomming event section start */
 .upcoming-wrapper{
     display: grid;
@@ -221,7 +234,23 @@ ul li i{
     text-decoration: none;
     
 }
+/* responsive css here  */
+@media  only screen and (max-width: 576px) {
+    .upcoming-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .upcomming-wrapper-inner-left{
+        width: 90px;
+        height: 90px;
+        margin: auto;
+    }
+    .upcoming-wrapper-left{
+        display: block;
+        text-align: center;
+    }
+}
 /* upcomming event section end */
+/* people say section start here */
 .people-say{
     background-color: #edf1f4;
     padding: 100px 0px;
@@ -236,5 +265,94 @@ ul li i{
     align-items: center;
     grid-gap: 30px;
 }
-
-
+@media only screen and (max-width: 576px) {
+    .people-say-wapper{
+        grid-template-columns:1fr;
+        grid-gap: 100px;
+    }
+    .people-say-left{
+        display: block !important;
+        text-align: center;
+    }
+}
+/* people say section end */
+/* our instractor section start */
+.our-instractor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+}
+.author-details{
+    background:#f1f1f1;
+    padding: 10px;
+}
+/* responsive style here */
+@media only screen and (max-width:576px)  {
+    .our-instractor{
+        grid-template-columns:1fr;
+    }
+    .author-details{
+        background:#f1f1f1;
+        /* padding: 8px !important; */
+        width: 88%;
+        margin-left: 6%;
+    }
+    
+}
+/* our instractor setion done */
+/* latest news section start */
+.latest-news-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 30px;
+}
+.text-blue{
+    color: #2a4376;
+}
+.latest-news-inner{
+    cursor: pointer;
+    font-size: 17px;
+}
+/* responsive style here */
+@media only screen and (max-width: 576px) {
+    .latest-news-wrapper{
+        grid-template-columns: 1fr;
+    }
+    
+}
+/* latest news section end */
+/* our subscribe our newslatter section start */
+.subscribe-newslatter{
+    background-color: #ff697c;
+    padding: 100px;
+}
+.subcribe-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.subcribe-text input{
+    padding: 8px;
+    border-radius: 3px 0 0 3px;
+    border: none;
+}
+.form-icon{
+    background: #000;
+    color: #fff;
+    padding:8px 30px;
+    border-radius: 0 3px 3px 0;
+}
+/* responsive style here */
+@media  only screen and (max-width: 576px) {
+    .subcribe-text{
+        grid-template-columns: 1fr;
+        
+    }
+    
+}
+/* subscribe newslatter section done */
