@@ -299,9 +299,7 @@ ul li i{
     }
     .author-details{
         background:#f1f1f1;
-        /* padding: 8px !important; */
-        width: 88%;
-        margin-left: 6%;
+        padding: 8px !important;
     }
     
 }
