@@ -83,6 +83,22 @@
     color:#ff697c;
     background: #fff;
 }
+/* responsive style section here */
+@media only screen and (max-width: 576px) {
+    .hero-title h1{
+        font-size: 25px;
+    }
+    .hero-title h1 span{
+        font-size: 25px;
+    }
+    .course-btn{
+        border-radius: 10px;
+        padding: 8px 18px;
+    }
+    .contact-btn{
+        padding: 6px 18px;
+    }    
+}
 /* hero section end */
 /* our course section start */
 .title h1{
@@ -363,6 +379,9 @@ ul li i{
     .subcribe-text{
         grid-template-columns: 1fr;
         
+    }
+    .fotter-form{
+        display: block;
     }
     
 }
